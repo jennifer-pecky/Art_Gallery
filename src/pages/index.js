@@ -1,4 +1,5 @@
-import Art_Home from '@/components/Art_Home'
+
+import Art_Home from '@/components/Art/Art_Home'
 import Link from 'next/link'
 
 

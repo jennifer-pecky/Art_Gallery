@@ -1,0 +1,7 @@
+.local {
+  background-image: url('../../../public/images/hero1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+}
