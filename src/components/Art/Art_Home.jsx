@@ -32,13 +32,13 @@ export default function Art_Home() {
             from a <br /> spark of inspiration. Will these <br /> pieces
             inspire? Visit us and find out.
           </p>
-          <button>
+          <button className="bg-black text-[#fff] p-4 mt-12  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
             <Link
               href="/login"
-              className="rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="rounded-lg border border-transparent px-5"
               rel="noopener noreferrer"
             >
-              click here
+              OUR LOCATION
             </Link>
           </button>
         </div>
