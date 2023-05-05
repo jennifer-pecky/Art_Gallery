@@ -5,3 +5,17 @@
   background-size: cover;
   width: 400px;
 }
+
+
+@media only screen and (max-width: 425px) {
+  .exam {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mere {
+    width: 100%;
+    max-width: 1440px;
+  }
+
+}

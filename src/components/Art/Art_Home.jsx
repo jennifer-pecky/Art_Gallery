@@ -1,11 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import Galley from '../Gal-day/Galley';
 
 export default function Art_Home() {
   return (
     <div>
-      <div className="flex mb-20">
+      <div className="flex mb-20 w-[100%]">
         <div className="flex relative">
           <div className="">
             <Image
@@ -26,13 +27,13 @@ export default function Art_Home() {
             </div>
           </h1>
         </div>
-        <div className="z-10 mt-[10rem] mr-9">
-          <p className="font-sans font-light text-3xl text-gray-700 italic leading-tight">
+        <div className="z-10 mt-[10rem] mr-9 text-center">
+          <p className="font-sans font-light text-4xl text-green-400 italic leading-tight">
             the arts in the collection of Lily`s <br /> Art Gallery all started
             from a <br /> spark of inspiration. Will these <br /> pieces
             inspire? Visit us and find out.
           </p>
-          <button className="bg-black text-[#fff] p-4 mt-12  bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+          <button className="bg-black text-[#fff] p-4 mt-12 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
             <Link
               href="/login"
               className="rounded-lg border border-transparent px-5"
@@ -43,6 +44,7 @@ export default function Art_Home() {
           </button>
         </div>
       </div>
+      <Galley />
     </div>
   );
 }
