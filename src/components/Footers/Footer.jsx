@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className="lg:px-20 bg-black text-[#fff] ">
-      <div className="flex gap-36 items-center p-8 px-20">
+    <div className="lg:px-20 bg-black text-[#fff]">
+      <div className="flex gap-36 items-center p-8 px-20 xl:px-32">
         <h1 className="font-sans text-[18px] font-medium">
           MODERN <br /> ART GALLERY
         </h1>

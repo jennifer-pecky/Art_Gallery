@@ -7,7 +7,7 @@ export default function Galley() {
     <>
       <div className="lg:px-20 ">
         <div
-          className="lg:flex gap-14 exam lg:px-20 
+          className="lg:flex gap-14 exam  xl:px-28 
 
        "
         >
@@ -38,7 +38,7 @@ export default function Galley() {
         </div>
         <br />
         {/* Second layer */}
-        <div className="flex gap-8 mb-4 px-20">
+        <div className="flex gap-20 mb-4 xl:px-28">
           <div className="">
             <Image
               src="/images/78.jpg
