@@ -24,4 +24,16 @@
     max-width: 1440px;
   }
 
+  /* .want {
+    display: none;
+  } */
+
+  .stress {
+    margin-top: 10px;
+  }
+
+  .trust {
+    flex-direction: column;
+  }
+
 }

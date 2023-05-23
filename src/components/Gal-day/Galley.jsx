@@ -6,15 +6,8 @@ export default function Galley() {
   return (
     <>
       <div className="lg:px-20 ">
-        <div
-          className="lg:flex gap-14 exam  xl:px-28 
-
-       "
-        >
-          <div
-            className="text-red-400 space-y-5 mt-9
-        "
-          >
+        <div className="lg:flex gap-14 exam  xl:px-28">
+          <div className="text-red-400 space-y-5 mt-9">
             <h1 className="font-bold lg:text-[4rem] text-[4.5rem] whitespace-nowrap leading-tight">
               YOUR DAY AT <br /> THE GALLERY
             </h1>
