@@ -20,14 +20,14 @@ export default function Art_Home() {
           </div>
           <div className="local"></div>
 
-          <h1 className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2  bg-clip-text text-transparent bg-gradient-to-r from-rose-50 via-orange-300 to-lime-500 text-[4rem] font-bold">
+          <h1 className="absolute lily left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2  bg-clip-text text-transparent bg-gradient-to-r from-rose-50 via-orange-300 to-black text-[3rem] font-bold">
             <div>LILY`S MODERN</div>
             <div>
               <span className="text-lime-300">ART</span> GALLERY
             </div>
           </h1>
         </div>
-        <div className="z-10 mt-[10rem] mr-9 text-center cont">
+        <div className="z-10 lg:mt-[6rem] text-center cont">
           <p className="font-sans font-light text-4xl text-green-400 italic leading-tight bab">
             the arts in the collection of Lily`s Art Gallery all started from a{' '}
             <br /> spark of inspiration. Will these <br /> pieces inspire? Visit

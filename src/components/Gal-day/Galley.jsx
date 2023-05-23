@@ -5,13 +5,13 @@ import Footer from '../Footers/Footer';
 export default function Galley() {
   return (
     <>
-      <div className="lg:px-20 ">
-        <div className="lg:flex gap-14 exam  xl:px-28">
-          <div className="text-red-400 space-y-5 mt-9">
-            <h1 className="font-bold lg:text-[4rem] text-[4.5rem] whitespace-nowrap leading-tight">
+      <div className="lg:px-28 ">
+        <div className="lg:flex gap-14 exam">
+          <div className="text-red-400 space-y-3">
+            <h1 className="font-bold lg:text-[4rem] text-[4rem] whitespace-nowrap leading-tight">
               YOUR DAY AT <br /> THE GALLERY
             </h1>
-            <p className="font-serif font-medium lg:text-2xl text-[2.1rem] whitespace-nowrap">
+            <p className="font-serif font-medium lg:text-2xl leading-tight LLL">
               Wander through our distinct <br /> collection and find new
               insights <br /> about our artists. Dive into the <br /> details of
               their creative process
@@ -31,7 +31,7 @@ export default function Galley() {
         </div>
         <br />
         {/* Second layer */}
-        <div className="flex gap-20 mb-4 xl:px-28">
+        <div className="lg:flex gap-20 mb-9 xl:px-28">
           <div className="">
             <Image
               src="/images/78.jpg
@@ -40,7 +40,7 @@ export default function Galley() {
               width={500}
               height={500}
               priority="false"
-              className=""
+              className="when"
             />
           </div>
           <div className="space-y-6">
@@ -57,7 +57,7 @@ export default function Galley() {
             </div>
 
             <div className="bg-[black] text-[#fff] p-4 w-[100%] h-[45%]">
-              <div className="px-5 mt-4 space-y-3">
+              <div className="lg:px-5 mt-4 space-y-3 p-5">
                 {' '}
                 <h1 className="text-[2rem] leading-tight font-bold">
                   COME & BE <br />

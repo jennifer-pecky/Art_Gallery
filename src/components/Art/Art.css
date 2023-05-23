@@ -12,21 +12,18 @@
 }
 
 
+
+/* Media queries */
+
 @media only screen and (max-width: 425px) {
   .exam {
     display: flex;
     flex-direction: column-reverse;
-    margin-left: 30px;
   }
 
-  .mere {
-    /* width: 100%; */
-    max-width: 1440px;
+  .lily {
+    font-size: 30px;
   }
-
-  /* .want {
-    display: none;
-  } */
 
   .stress {
     margin-top: 10px;
@@ -36,4 +33,43 @@
     flex-direction: column;
   }
 
+  .bab {
+    color: black;
+  }
+
+  .when {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .exam {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin-left: 30px; */
+  }
+
+  .lily {
+    font-size: 30px;
+  }
+
+  .LLL {
+    font-size: 20px;
+  }
+
+  .live {
+    padding: 20px;
+  }
+
+  .stress {
+    margin-top: 10px;
+  }
+
+  .trust {
+    flex-direction: column;
+  }
+
+  .bab {
+    color: black;
+  }
 }
