@@ -6,7 +6,7 @@ import Galley from '../Gal-day/Galley';
 export default function Art_Home() {
   return (
     <div>
-      <div className="flex mb-20 w-[100%] trust">
+      <div className="flex mb-20 trust md:space-x-14 md:px-10">
         <div className="flex relative">
           <div className="want">
             <Image
@@ -27,7 +27,7 @@ export default function Art_Home() {
             </div>
           </h1>
         </div>
-        <div className="z-10 lg:mt-[6rem] text-center cont">
+        <div className="z-10 md:mt-[13rem] text-center cont">
           <p className="font-sans font-light text-4xl text-green-400 italic leading-tight bab">
             the arts in the collection of Lily`s Art Gallery all started from a{' '}
             <br /> spark of inspiration. Will these <br /> pieces inspire? Visit
